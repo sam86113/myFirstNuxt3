@@ -48,18 +48,16 @@ const fakeImgUrl: (width: number, height: number, text: string) => string = func
   </div>
 </template>
 
-<style scoped>
-.nuxt_heading {
-  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
+<style lang="sass" scoped>
+.nuxt_heading
+    background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff)
+    color: transparent
+    background-clip: text
+    -webkit-background-clip: text
 
-.wen_hung {
-  background: -webkit-linear-gradient(315deg, #eac100 25%, #ff9224);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
+.wen_hung
+    background: -webkit-linear-gradient(315deg, #eac100 25%, #ff9224)
+    color: transparent
+    background-clip: text
+    -webkit-background-clip: text
 </style>
